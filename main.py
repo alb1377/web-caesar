@@ -32,6 +32,9 @@ form = """
         <input type="text" name="rot">
 
         <input type="textarea" name="text">
+        <br>
+        
+        <input type="submit">
       </form>
     </body>
 </html>
