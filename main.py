@@ -27,6 +27,12 @@ form = """
     </head>
     <body>
       <!-- create your form here -->
+      <form method="post">
+        <label>Rotate by:</label>
+        <input type="text" name="rot">
+
+        <input type="textarea" name="text">
+      </form>
     </body>
 </html>
 """
@@ -34,6 +40,6 @@ form = """
 
 @app.route("/")
 def index():
-    return "Hello World"
+    return form
 
 app.run()
